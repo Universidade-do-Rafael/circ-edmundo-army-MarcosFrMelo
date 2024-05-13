@@ -11,5 +11,5 @@ int main(){
         TCircularList_insert_end(lista, i);
     }
     
-    printf("%d\n", sobreviventeDaMoeda(lista, numeroPassadas));
+    printf("%d", sobreviventeDaMoeda(lista, numeroPassadas));
 }
